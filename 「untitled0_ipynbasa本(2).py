@@ -88,7 +88,7 @@ if st.sidebar.button("🚀 啟動模擬"):
     st.pyplot(fig_stat)
 
     # --- 3. 修正後的動畫邏輯 (加入敵軍消失機制) ---
-    st.subheader("🎬 實時接戰演示 (敵軍攔截生效)")
+    st.subheader("🎬 實時接戰演示")
     fig_ani, (v1, v2) = plt.subplots(1, 2, figsize=(12, 6))
     TARGET = np.array([110, 60])
 
